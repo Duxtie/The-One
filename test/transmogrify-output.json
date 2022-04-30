@@ -1,0 +1,58 @@
+[
+  {
+    "server": "10.10.0.123",
+    "date": "2019-07-01T15:25:54.000000",
+    "severity": "INFO",
+    "process": "webapp",
+    "message": "server started."
+  },
+  {
+    "server": "10.10.0.123",
+    "date":  "2019-07-01T15:25:56.000000",
+    "severity": "WARN",
+    "process": "webapp",
+    "message": "one registered cluster node missing: 10.10.0.122"
+  },
+  {
+    "server": "10.10.0.202",
+    "date": "2019-07-01T15:25:57.000000",
+    "severity": "WARN",
+    "process": "jvm-x994a",
+    "message": "memory-low 200mb"
+  },
+  {
+    "server": "10.10.0.123",
+    "date": "2019-07-01T15:25:58.000000",
+    "severity": "ERROR",
+    "process": "webapp",
+    "message": "invalid cluster node removed from active configuration: 10.10.0.122"
+  },
+  {
+    "server": "10.10.0.202",
+    "date": "2019-07-01T15:26:13.000000",
+    "severity": "WARN",
+    "process": "jvm-x994a",
+    "message": "memory-low 190mb"
+  },
+  {
+    "server": "10.10.0.202",
+    "date": "2019-07-01T15:27:23.000000",
+    "severity": "WARN",
+    "process": "jvm-x994a",
+    "message": "memory-low 180mb"
+  },
+  {
+    "server": "10.10.0.202",
+    "date": "2019-07-01T15:27:23.000000",
+    "severity": "INFO",
+    "process": "jvm-x994a",
+    "message": "full GC"
+  },
+  {
+    "server": "10.10.0.177",
+    "date": "2019-07-01T15:27:25.000000",
+    "severity": "WARN",
+    "process": "microsrvc",
+    "message": "retry failed to downstream service luxadapter"
+  }
+]

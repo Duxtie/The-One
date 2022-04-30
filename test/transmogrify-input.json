@@ -1,0 +1,71 @@
+[
+  {
+    "server": "10.10.0.123",
+    "date": 1561994754,
+    "severity": "INFO",
+    "process": "webapp",
+    "message": "server started."
+  },
+  {
+    "server": "10.10.0.123",
+    "date": 1561994756,
+    "severity": "WARN",
+    "process": "webapp",
+    "message": "one registered cluster node missing: 10.10.0.122"
+  },
+  {
+    "server": "10.10.0.202",
+    "date": 1561994757000,
+    "source": "jvm-x994a",
+    "events": [
+      {
+        "indicator-level": 7,
+        "indicator-type": "memory-low",
+        "indicator-value": "200mb"
+      }
+    ]
+  },
+  {
+    "server": "10.10.0.123",
+    "date": 1561994758,
+    "severity": "ERROR",
+    "process": "webapp",
+    "message": "invalid cluster node removed from active configuration: 10.10.0.122"
+  },
+  {
+    "server": "10.10.0.202",
+    "date": 1561994773000,
+    "source": "jvm-x994a",
+    "events": [
+      {
+        "indicator-level": 7,
+        "indicator-type": "memory-low",
+        "indicator-value": "190mb"
+      }
+    ]
+  },
+  {
+    "server": "10.10.0.202",
+    "date": 1561994843000,
+    "source": "jvm-x994a",
+    "events": [
+      {
+        "indicator-level": 7,
+        "indicator-type": "memory-low",
+        "indicator-value": "180mb"
+      },
+      {
+        "indicator-level": 3,
+        "indicator-type": "message",
+        "indicator-value": "full GC"
+      }
+    ]
+  },
+  {
+    "server": "10.10.0.177",
+    "date": "2019-07-01T15:27:25.000000",
+    "severity": "WARN",
+    "process": "microsrvc",
+    "message": "retry failed to downstream service luxadapter"
+  }
+]
